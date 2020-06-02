@@ -1,0 +1,218 @@
+﻿Series Name	Series Code	Country Name	Country Code	2018 [YR2018]
+Population density (people per sq. km of land area)	EN.POP.DNST	Afghanistan	AFG	56.937760009803
+Population density (people per sq. km of land area)	EN.POP.DNST	Albania	ALB	104.612262773723
+Population density (people per sq. km of land area)	EN.POP.DNST	Algeria	DZA	17.7300750711665
+Population density (people per sq. km of land area)	EN.POP.DNST	American Samoa	ASM	277.325
+Population density (people per sq. km of land area)	EN.POP.DNST	Andorra	AND	163.842553191489
+Population density (people per sq. km of land area)	EN.POP.DNST	Angola	AGO	24.7130520574316
+Population density (people per sq. km of land area)	EN.POP.DNST	Antigua and Barbuda	ATG	218.831818181818
+Population density (people per sq. km of land area)	EN.POP.DNST	Argentina	ARG	16.2585100979651
+Population density (people per sq. km of land area)	EN.POP.DNST	Armenia	ARM	103.680224798033
+Population density (people per sq. km of land area)	EN.POP.DNST	Aruba	ABW	588.027777777778
+Population density (people per sq. km of land area)	EN.POP.DNST	Australia	AUS	3.24787091037205
+Population density (people per sq. km of land area)	EN.POP.DNST	Austria	AUT	107.127966860564
+Population density (people per sq. km of land area)	EN.POP.DNST	Azerbaijan	AZE	120.234667956937
+Population density (people per sq. km of land area)	EN.POP.DNST	Bahamas, The	BHS	38.5254745254745
+Population density (people per sq. km of land area)	EN.POP.DNST	Bahrain	BHR	2017.27369979138
+Population density (people per sq. km of land area)	EN.POP.DNST	Bangladesh	BGD	1239.57931166936
+Population density (people per sq. km of land area)	EN.POP.DNST	Barbados	BRB	666.606976744186
+Population density (people per sq. km of land area)	EN.POP.DNST	Belarus	BLR	46.7195037884204
+Population density (people per sq. km of land area)	EN.POP.DNST	Belgium	BEL	377.584412153236
+Population density (people per sq. km of land area)	EN.POP.DNST	Belize	BLZ	16.7939938623411
+Population density (people per sq. km of land area)	EN.POP.DNST	Benin	BEN	101.853919829727
+Population density (people per sq. km of land area)	EN.POP.DNST	Bermuda	BMU	1184.68516426289
+Population density (people per sq. km of land area)	EN.POP.DNST	Bhutan	BTN	19.7775277714448
+Population density (people per sq. km of land area)	EN.POP.DNST	Bolivia	BOL	10.4801458506416
+Population density (people per sq. km of land area)	EN.POP.DNST	Bosnia and Herzegovina	BIH	64.92048828125
+Population density (people per sq. km of land area)	EN.POP.DNST	Botswana	BWA	3.97742487604327
+Population density (people per sq. km of land area)	EN.POP.DNST	Brazil	BRA	25.0617162430876
+Population density (people per sq. km of land area)	EN.POP.DNST	British Virgin Islands	VGB	198.68
+Population density (people per sq. km of land area)	EN.POP.DNST	Brunei Darussalam	BRN	81.3969639468691
+Population density (people per sq. km of land area)	EN.POP.DNST	Bulgaria	BGR	64.7110998526161
+Population density (people per sq. km of land area)	EN.POP.DNST	Burkina Faso	BFA	72.1912828947368
+Population density (people per sq. km of land area)	EN.POP.DNST	Burundi	BDI	435.178271028037
+Population density (people per sq. km of land area)	EN.POP.DNST	Cabo Verde	CPV	134.929776674938
+Population density (people per sq. km of land area)	EN.POP.DNST	Cambodia	KHM	92.0564128710628
+Population density (people per sq. km of land area)	EN.POP.DNST	Cameroon	CMR	53.3439889149796
+Population density (people per sq. km of land area)	EN.POP.DNST	Canada	CAN	4.07518823864492
+Population density (people per sq. km of land area)	EN.POP.DNST	Cayman Islands	CYM	267.391666666667
+Population density (people per sq. km of land area)	EN.POP.DNST	Central African Republic	CAF	7.49041221227006
+Population density (people per sq. km of land area)	EN.POP.DNST	Chad	TCD	12.2917336404066
+Population density (people per sq. km of land area)	EN.POP.DNST	Channel Islands	CHI	861.106093786457
+Population density (people per sq. km of land area)	EN.POP.DNST	Chile	CHL	25.1894460666519
+Population density (people per sq. km of land area)	EN.POP.DNST	China	CHN	148.348833270666
+Population density (people per sq. km of land area)	EN.POP.DNST	Colombia	COL	44.7487021180712
+Population density (people per sq. km of land area)	EN.POP.DNST	Comoros	COM	447.244477540227
+Population density (people per sq. km of land area)	EN.POP.DNST	Congo, Dem. Rep.	COD	37.0825923557045
+Population density (people per sq. km of land area)	EN.POP.DNST	Congo, Rep.	COG	15.3568462664715
+Population density (people per sq. km of land area)	EN.POP.DNST	Costa Rica	CRI	97.9130630630631
+Population density (people per sq. km of land area)	EN.POP.DNST	Cote d'Ivoire	CIV	78.8340534591195
+Population density (people per sq. km of land area)	EN.POP.DNST	Croatia	HRV	73.0493745532523
+Population density (people per sq. km of land area)	EN.POP.DNST	Cuba	CUB	108.999596231494
+Population density (people per sq. km of land area)	EN.POP.DNST	Curacao	CUW	..
+Population density (people per sq. km of land area)	EN.POP.DNST	Cyprus	CYP	128.708333333333
+Population density (people per sq. km of land area)	EN.POP.DNST	Czech Republic	CZE	137.657705257705
+Population density (people per sq. km of land area)	EN.POP.DNST	Denmark	DNK	137.976565849012
+Population density (people per sq. km of land area)	EN.POP.DNST	Djibouti	DJI	41.3684210526316
+Population density (people per sq. km of land area)	EN.POP.DNST	Dominica	DMA	95.5
+Population density (people per sq. km of land area)	EN.POP.DNST	Dominican Republic	DOM	219.97857586421
+Population density (people per sq. km of land area)	EN.POP.DNST	Ecuador	ECU	68.7886817522951
+Population density (people per sq. km of land area)	EN.POP.DNST	Egypt, Arab Rep.	EGY	98.8734692852479
+Population density (people per sq. km of land area)	EN.POP.DNST	El Salvador	SLV	309.881467181467
+Population density (people per sq. km of land area)	EN.POP.DNST	Equatorial Guinea	GNQ	46.6657397504456
+Population density (people per sq. km of land area)	EN.POP.DNST	Eritrea	ERI	..
+Population density (people per sq. km of land area)	EN.POP.DNST	Estonia	EST	30.4112491373361
+Population density (people per sq. km of land area)	EN.POP.DNST	Eswatini	SWZ	66.0576162790698
+Population density (people per sq. km of land area)	EN.POP.DNST	Ethiopia	ETH	109.224559
+Population density (people per sq. km of land area)	EN.POP.DNST	Faroe Islands	FRO	34.7399698278226
+Population density (people per sq. km of land area)	EN.POP.DNST	Fiji	FJI	48.3570333880679
+Population density (people per sq. km of land area)	EN.POP.DNST	Finland	FIN	18.1485472672831
+Population density (people per sq. km of land area)	EN.POP.DNST	France	FRA	122.319882597837
+Population density (people per sq. km of land area)	EN.POP.DNST	French Polynesia	PYF	75.8685792349727
+Population density (people per sq. km of land area)	EN.POP.DNST	Gabon	GAB	8.22476423332169
+Population density (people per sq. km of land area)	EN.POP.DNST	Gambia, The	GMB	225.30652173913
+Population density (people per sq. km of land area)	EN.POP.DNST	Georgia	GEO	65.2752020714511
+Population density (people per sq. km of land area)	EN.POP.DNST	Germany	DEU	237.30759674834
+Population density (people per sq. km of land area)	EN.POP.DNST	Ghana	GHA	130.821429199262
+Population density (people per sq. km of land area)	EN.POP.DNST	Gibraltar	GIB	3371.8
+Population density (people per sq. km of land area)	EN.POP.DNST	Greece	GRC	83.2562141194725
+Population density (people per sq. km of land area)	EN.POP.DNST	Greenland	GRL	0.136496528200755
+Population density (people per sq. km of land area)	EN.POP.DNST	Grenada	GRD	327.805882352941
+Population density (people per sq. km of land area)	EN.POP.DNST	Guam	GUM	306.977777777778
+Population density (people per sq. km of land area)	EN.POP.DNST	Guatemala	GTM	160.953779395297
+Population density (people per sq. km of land area)	EN.POP.DNST	Guinea	GIN	50.5222122741332
+Population density (people per sq. km of land area)	EN.POP.DNST	Guinea-Bissau	GNB	66.6539473684211
+Population density (people per sq. km of land area)	EN.POP.DNST	Guyana	GUY	3.95734823469647
+Population density (people per sq. km of land area)	EN.POP.DNST	Haiti	HTI	403.59854862119
+Population density (people per sq. km of land area)	EN.POP.DNST	Honduras	HND	85.6870319063366
+Population density (people per sq. km of land area)	EN.POP.DNST	Hong Kong SAR, China	HKG	7096.19047619048
+Population density (people per sq. km of land area)	EN.POP.DNST	Hungary	HUN	107.981486799956
+Population density (people per sq. km of land area)	EN.POP.DNST	Iceland	ISL	3.51841396508728
+Population density (people per sq. km of land area)	EN.POP.DNST	India	IND	454.938072575247
+Population density (people per sq. km of land area)	EN.POP.DNST	Indonesia	IDN	147.75219008926
+Population density (people per sq. km of land area)	EN.POP.DNST	Iran, Islamic Rep.	IRN	50.222420123284
+Population density (people per sq. km of land area)	EN.POP.DNST	Iraq	IRQ	88.5305700354617
+Population density (people per sq. km of land area)	EN.POP.DNST	Ireland	IRL	70.6533459137756
+Population density (people per sq. km of land area)	EN.POP.DNST	Isle of Man	IMN	147.50350877193
+Population density (people per sq. km of land area)	EN.POP.DNST	Israel	ISR	410.480591497227
+Population density (people per sq. km of land area)	EN.POP.DNST	Italy	ITA	205.418372203713
+Population density (people per sq. km of land area)	EN.POP.DNST	Jamaica	JAM	270.993074792244
+Population density (people per sq. km of land area)	EN.POP.DNST	Japan	JPN	347.073458415624
+Population density (people per sq. km of land area)	EN.POP.DNST	Jordan	JOR	112.14249831043
+Population density (people per sq. km of land area)	EN.POP.DNST	Kazakhstan	KAZ	6.76831870207801
+Population density (people per sq. km of land area)	EN.POP.DNST	Kenya	KEN	90.2994166637383
+Population density (people per sq. km of land area)	EN.POP.DNST	Kiribati	KIR	143.020987654321
+Population density (people per sq. km of land area)	EN.POP.DNST	Korea, Dem. People’s Rep.	PRK	212.190175234615
+Population density (people per sq. km of land area)	EN.POP.DNST	Korea, Rep.	KOR	529.358501289308
+Population density (people per sq. km of land area)	EN.POP.DNST	Kosovo	XKX	..
+Population density (people per sq. km of land area)	EN.POP.DNST	Kuwait	KWT	232.172222222222
+Population density (people per sq. km of land area)	EN.POP.DNST	Kyrgyz Republic	KGZ	32.9655891553702
+Population density (people per sq. km of land area)	EN.POP.DNST	Lao PDR	LAO	30.5957842287695
+Population density (people per sq. km of land area)	EN.POP.DNST	Latvia	LVA	30.9934705693149
+Population density (people per sq. km of land area)	EN.POP.DNST	Lebanon	LBN	669.494134897361
+Population density (people per sq. km of land area)	EN.POP.DNST	Lesotho	LSO	69.437812911726
+Population density (people per sq. km of land area)	EN.POP.DNST	Liberia	LBR	50.0309073920266
+Population density (people per sq. km of land area)	EN.POP.DNST	Libya	LBY	3.79563238119054
+Population density (people per sq. km of land area)	EN.POP.DNST	Liechtenstein	LIE	236.9375
+Population density (people per sq. km of land area)	EN.POP.DNST	Lithuania	LTU	44.7230757742448
+Population density (people per sq. km of land area)	EN.POP.DNST	Luxembourg	LUX	250.185185185185
+Population density (people per sq. km of land area)	EN.POP.DNST	Macao SAR, China	MAC	20777.5002607232
+Population density (people per sq. km of land area)	EN.POP.DNST	Madagascar	MDG	45.1398556204881
+Population density (people per sq. km of land area)	EN.POP.DNST	Malawi	MWI	192.440761561307
+Population density (people per sq. km of land area)	EN.POP.DNST	Malaysia	MYS	95.9628214883579
+Population density (people per sq. km of land area)	EN.POP.DNST	Maldives	MDV	1718.98666666667
+Population density (people per sq. km of land area)	EN.POP.DNST	Mali	MLI	15.635015858186
+Population density (people per sq. km of land area)	EN.POP.DNST	Malta	MLT	1514.46875
+Population density (people per sq. km of land area)	EN.POP.DNST	Marshall Islands	MHL	324.516666666667
+Population density (people per sq. km of land area)	EN.POP.DNST	Mauritania	MRT	4.27216357815077
+Population density (people per sq. km of land area)	EN.POP.DNST	Mauritius	MUS	623.30197044335
+Population density (people per sq. km of land area)	EN.POP.DNST	Mexico	MEX	64.9146264050001
+Population density (people per sq. km of land area)	EN.POP.DNST	Micronesia, Fed. Sts.	FSM	160.914285714286
+Population density (people per sq. km of land area)	EN.POP.DNST	Moldova	MDA	123.51980353224
+Population density (people per sq. km of land area)	EN.POP.DNST	Monaco	MCO	..
+Population density (people per sq. km of land area)	EN.POP.DNST	Mongolia	MNG	2.04060866654651
+Population density (people per sq. km of land area)	EN.POP.DNST	Montenegro	MNE	46.2622304832714
+Population density (people per sq. km of land area)	EN.POP.DNST	Morocco	MAR	80.7285189334528
+Population density (people per sq. km of land area)	EN.POP.DNST	Mozambique	MOZ	37.508535313716
+Population density (people per sq. km of land area)	EN.POP.DNST	Myanmar	MMR	82.2386154835549
+Population density (people per sq. km of land area)	EN.POP.DNST	Namibia	NAM	2.97374558175127
+Population density (people per sq. km of land area)	EN.POP.DNST	Nauru	NRU	635.2
+Population density (people per sq. km of land area)	EN.POP.DNST	Nepal	NPL	195.939107080572
+Population density (people per sq. km of land area)	EN.POP.DNST	Netherlands	NLD	511.475927574948
+Population density (people per sq. km of land area)	EN.POP.DNST	New Caledonia	NCL	15.5393873085339
+Population density (people per sq. km of land area)	EN.POP.DNST	New Zealand	NZL	18.3851733697923
+Population density (people per sq. km of land area)	EN.POP.DNST	Nicaragua	NIC	53.7270483629716
+Population density (people per sq. km of land area)	EN.POP.DNST	Niger	NER	17.7176505881424
+Population density (people per sq. km of land area)	EN.POP.DNST	Nigeria	NGA	215.064988965381
+Population density (people per sq. km of land area)	EN.POP.DNST	North Macedonia	MKD	82.5915146708961
+Population density (people per sq. km of land area)	EN.POP.DNST	Northern Mariana Islands	MNP	123.65652173913
+Population density (people per sq. km of land area)	EN.POP.DNST	Norway	NOR	14.5482916341657
+Population density (people per sq. km of land area)	EN.POP.DNST	Oman	OMN	15.6041453957997
+Population density (people per sq. km of land area)	EN.POP.DNST	Pakistan	PAK	275.289318700706
+Population density (people per sq. km of land area)	EN.POP.DNST	Palau	PLW	38.9282608695652
+Population density (people per sq. km of land area)	EN.POP.DNST	Panama	PAN	56.1860774818402
+Population density (people per sq. km of land area)	EN.POP.DNST	Papua New Guinea	PNG	19.0043633794109
+Population density (people per sq. km of land area)	EN.POP.DNST	Paraguay	PRY	17.5083589227284
+Population density (people per sq. km of land area)	EN.POP.DNST	Peru	PER	24.99160625
+Population density (people per sq. km of land area)	EN.POP.DNST	Philippines	PHL	357.688305329175
+Population density (people per sq. km of land area)	EN.POP.DNST	Poland	POL	124.023482151605
+Population density (people per sq. km of land area)	EN.POP.DNST	Portugal	PRT	112.2619412173
+Population density (people per sq. km of land area)	EN.POP.DNST	Puerto Rico	PRI	360.220180383315
+Population density (people per sq. km of land area)	EN.POP.DNST	Qatar	QAT	239.593195521103
+Population density (people per sq. km of land area)	EN.POP.DNST	Romania	ROU	84.6059848748261
+Population density (people per sq. km of land area)	EN.POP.DNST	Russian Federation	RUS	8.82207955488442
+Population density (people per sq. km of land area)	EN.POP.DNST	Rwanda	RWA	498.659870287799
+Population density (people per sq. km of land area)	EN.POP.DNST	Samoa	WSM	69.3038869257951
+Population density (people per sq. km of land area)	EN.POP.DNST	San Marino	SMR	563.083333333333
+Population density (people per sq. km of land area)	EN.POP.DNST	Sao Tome and Principe	STP	219.820833333333
+Population density (people per sq. km of land area)	EN.POP.DNST	Saudi Arabia	SAU	15.6766543082956
+Population density (people per sq. km of land area)	EN.POP.DNST	Senegal	SEN	82.3474783150678
+Population density (people per sq. km of land area)	EN.POP.DNST	Serbia	SRB	79.8376857992225
+Population density (people per sq. km of land area)	EN.POP.DNST	Seychelles	SYC	210.352173913043
+Population density (people per sq. km of land area)	EN.POP.DNST	Sierra Leone	SLE	105.987170961485
+Population density (people per sq. km of land area)	EN.POP.DNST	Singapore	SGP	7952.9984184018
+Population density (people per sq. km of land area)	EN.POP.DNST	Sint Maarten (Dutch part)	SXM	..
+Population density (people per sq. km of land area)	EN.POP.DNST	Slovak Republic	SVK	113.285586522463
+Population density (people per sq. km of land area)	EN.POP.DNST	Slovenia	SVN	102.96366052404
+Population density (people per sq. km of land area)	EN.POP.DNST	Solomon Islands	SLB	23.324687388353
+Population density (people per sq. km of land area)	EN.POP.DNST	Somalia	SOM	23.9234769024771
+Population density (people per sq. km of land area)	EN.POP.DNST	South Africa	ZAF	47.6301197767684
+Population density (people per sq. km of land area)	EN.POP.DNST	South Sudan	SSD	..
+Population density (people per sq. km of land area)	EN.POP.DNST	Spain	ESP	93.6747673244434
+Population density (people per sq. km of land area)	EN.POP.DNST	Sri Lanka	LKA	345.558922022006
+Population density (people per sq. km of land area)	EN.POP.DNST	St. Kitts and Nevis	KNA	201.696153846154
+Population density (people per sq. km of land area)	EN.POP.DNST	St. Lucia	LCA	298.17868852459
+Population density (people per sq. km of land area)	EN.POP.DNST	St. Martin (French part)	MAF	..
+Population density (people per sq. km of land area)	EN.POP.DNST	St. Vincent and the Grenadines	VCT	282.589743589744
+Population density (people per sq. km of land area)	EN.POP.DNST	Sudan	SDN	..
+Population density (people per sq. km of land area)	EN.POP.DNST	Suriname	SUR	3.69225
+Population density (people per sq. km of land area)	EN.POP.DNST	Sweden	SWE	24.9814981218237
+Population density (people per sq. km of land area)	EN.POP.DNST	Switzerland	CHE	215.437463043118
+Population density (people per sq. km of land area)	EN.POP.DNST	Syrian Arab Republic	SYR	92.0671077710614
+Population density (people per sq. km of land area)	EN.POP.DNST	Tajikistan	TJK	65.5727141724908
+Population density (people per sq. km of land area)	EN.POP.DNST	Tanzania	TZA	63.5790787988259
+Population density (people per sq. km of land area)	EN.POP.DNST	Thailand	THA	135.897206835131
+Population density (people per sq. km of land area)	EN.POP.DNST	Timor-Leste	TLS	85.270477471419
+Population density (people per sq. km of land area)	EN.POP.DNST	Togo	TGO	145.046773303916
+Population density (people per sq. km of land area)	EN.POP.DNST	Tonga	TON	143.329166666667
+Population density (people per sq. km of land area)	EN.POP.DNST	Trinidad and Tobago	TTO	270.927485380117
+Population density (people per sq. km of land area)	EN.POP.DNST	Tunisia	TUN	74.4413233779609
+Population density (people per sq. km of land area)	EN.POP.DNST	Turkey	TUR	106.960128893104
+Population density (people per sq. km of land area)	EN.POP.DNST	Turkmenistan	TKM	12.4505947694337
+Population density (people per sq. km of land area)	EN.POP.DNST	Turks and Caicos Islands	TCA	39.6473684210526
+Population density (people per sq. km of land area)	EN.POP.DNST	Tuvalu	TUV	383.6
+Population density (people per sq. km of land area)	EN.POP.DNST	Uganda	UGA	213.061734490325
+Population density (people per sq. km of land area)	EN.POP.DNST	Ukraine	UKR	77.0296673514129
+Population density (people per sq. km of land area)	EN.POP.DNST	United Arab Emirates	ARE	135.609110109828
+Population density (people per sq. km of land area)	EN.POP.DNST	United Kingdom	GBR	274.708981936924
+Population density (people per sq. km of land area)	EN.POP.DNST	United States	USA	35.7136220923495
+Population density (people per sq. km of land area)	EN.POP.DNST	Uruguay	URY	19.7080276539824
+Population density (people per sq. km of land area)	EN.POP.DNST	Uzbekistan	UZB	77.4692054536906
+Population density (people per sq. km of land area)	EN.POP.DNST	Vanuatu	VUT	24.0098441345365
+Population density (people per sq. km of land area)	EN.POP.DNST	Venezuela, RB	VEN	32.7307919052208
+Population density (people per sq. km of land area)	EN.POP.DNST	Vietnam	VNM	308.125245912213
+Population density (people per sq. km of land area)	EN.POP.DNST	Virgin Islands (U.S.)	VIR	305.648571428571
+Population density (people per sq. km of land area)	EN.POP.DNST	West Bank and Gaza	PSE	758.984551495017
+Population density (people per sq. km of land area)	EN.POP.DNST	Yemen, Rep.	YEM	53.9778529083092
+Population density (people per sq. km of land area)	EN.POP.DNST	Zambia	ZMB	23.3414789007116
+Population density (people per sq. km of land area)	EN.POP.DNST	Zimbabwe	ZWE	37.3245909267158
