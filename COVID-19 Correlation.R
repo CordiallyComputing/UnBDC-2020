@@ -1,13 +1,9 @@
-setwd("C:/Users/Stanley/Desktop/Learning R/Projects/UnBDC COVID19 Project/Code")
-
 library(COVID19)
 library(tidyverse)
 library(ggthemes)
 library(ggrepel)
 
 countries_to_investigate = SOUTHERN_EU
-
-#AMERICA => AFRICA => ASIA => EUROPE
 
 #================================================================================================#
 #Get Data
@@ -30,13 +26,12 @@ last_day <- covid %>%
   filter(confirmed >= min_cases) %>%
   summarize(day_1000=max(date))
 
-#What I did was use max() instead of min ^^^^^
-
 first_day <- covid %>% 
   group_by(id) %>% 
   filter(confirmed != 0 & id %in% last_day$id) %>%
   summarize(day_1=min(date))
 
+#Filtering datasets and updating
 density_dataset <- density_dataset %>% filter(id %in% last_day$id)
 covid <- covid %>% filter(id %in% last_day$id)
 
@@ -49,9 +44,9 @@ all_ids <- levels(as.factor(covid$id))
 
 
 
-
+#================================================================================================#
 #Outer Function
-compare_countries <- function(countries=countries_to_investigate){
+compare_countries <- function(countries=countries_to_investigate, prelim_plot=0){
   countries_of_interest <- NULL
   
   #Validate Input
@@ -73,11 +68,72 @@ compare_countries <- function(countries=countries_to_investigate){
   
   #Update Values
   lapply(countries_of_interest, cumulative_rates_per_country)
-  create_plot(countries_of_interest)
+  
+  ##Preliminary Data Exploration   (OPTIONAL)
+  
+  if(prelim_plot == 1){
+    #Get plots
+    all_preliminary_plots <- lapply(countries_of_interest, preliminary_data_exploration)
+    
+    #Plot ggplots OR place in pdf if 5 countries or more compared
+    if(length(countries_of_interest) <= 4){
+      grid.arrange(grobs=all_preliminary_plots, nrow=length(countries_of_interest))
+    }else{
+      pdf("COVID-19 Exploratory Data Analysis.pdf", onefile=TRUE)
+      for(i in seq(length(all_preliminary_plots))){
+        do.call("grid.arrange", all_preliminary_plots[i])
+      }
+      dev.off()
+    }
+  }
+  
+  #Create Correlation Plot && Display Information in a Table
+  create_corplot(countries_of_interest)
 }
-
-
-#Get Fatality Rate and Survival Rate
+#================================================================================================#
+###Preliminary Data Exploration
+preliminary_data_exploration <- function(countries){
+  #Obtain local data
+  local_covid_data <- covid %>% filter(id == country)
+  
+  #Compute Estimate Case Fatality and Proportion who Recovered   &&  Replace NaN
+  deaths_per_current_cases <- local_covid_data[["deaths"]] / 
+    sympto_and_asympto(local_covid_data[["confirmed"]])
+  recover_per_current_cases <- local_covid_data[["recovered"]] / 
+    sympto_and_asympto(local_covid_data[["confirmed"]])
+  
+  deaths_per_current_cases <- replace_na(deaths_per_current_cases, 0)
+  recover_per_current_cases <- replace_na(recover_per_current_cases, 0)
+  
+  #Aesthetics Variables
+  legend_x_pos <- round(local_covid_data$date[length(local_covid_data$date)/2])
+  cases_began <- local_covid_data %>% filter(confirmed > 0) %>%
+    pull(date) 
+  cases_thousand <- local_covid_data %>% filter(confirmed >= 1000) %>%
+    pull(date) 
+  label_began <- data.frame(my_text="first case", x = cases_began[1]-2, y = 0.41)
+  label_thousand <- data.frame(my_text="first thousand cases", x = cases_thousand[1]-2, y = 0.41)
+  
+  #Plot
+  local_covid_data %>% ggplot(aes(date)) +
+    geom_line(aes(y=deaths_per_current_cases, color="who died"), size=0.75, alpha=0.9) +
+    geom_line(aes(y=recover_per_current_cases, color="who recovered"), size=0.75, alpha=0.9) +
+    geom_vline(xintercept=cases_began[1], linetype="dotted") +
+    geom_vline(xintercept=cases_thousand[1], linetype="dotted") +
+    geom_text(data=label_began, aes(x, y, label=my_text), size=2.5, angle=90) +
+    geom_text(data=label_thousand, aes(x, y, label=my_text), size=2.5, angle=90) +
+    ggtitle(sprintf("COVID-19 Case Fatality Rate & Proportion who Recovered in %s", country)) +
+    xlab(NULL) +
+    scale_y_continuous(name="Proportion of Infected\n", limits = c(0, 0.9)) + 
+    scale_color_manual(values=c("red", "blue")) +
+    theme_clean() +
+    theme(plot.title = element_text(size=12, vjust=0.5, hjust=0.5, face="bold"),
+          axis.title.y = element_text(vjust=1, size=10),
+          legend.position = "bottom",
+          legend.title=element_blank())
+}
+#================================================================================================#
+###Update Global Fatality Rate and Proportion who Recovered
 cumulative_rates_per_country <- function(country){
   local_covid_data <- covid %>% filter(id == country)
   
@@ -87,16 +143,26 @@ cumulative_rates_per_country <- function(country){
     pull(fatality)
   case_fatality <<- c(case_fatality, local_fatality)
   
-  local_survival <- local_covid_data %>% 
+  prop_recovered <- local_covid_data %>% 
     filter(date == max(date)) %>%
     summarize(survival= recovered/confirmed) %>%
     pull(survival)
-  survival_rate <<- c(survival_rate, local_survival)
+  survival_rate <<- c(survival_rate, prop_recovered)
 }
 
-
-#Create Plot
-create_plot <- function(countries){
+#================================================================================================#
+###Helper FUNCTION: Provides estimate of true number of cases
+sympto_and_asympto <- function(cases){
+  avg <- 17.9                                         #Estimation by Mizumoto et al.
+  sigma <- (avg - 15.5)/2
+  
+  #Taking a sample of possible proportion of asymptomatic cases
+  prop <- sample(rnorm(1000, avg, sigma), 1, replace=TRUE) / 100
+  (prop*cases) + cases
+}
+#================================================================================================#
+###Create Correlationary Plots                            ##UPDATE THIS FOR DIFFERENT VARIABLES TO CORRELATE
+create_corplot <- function(countries){
   region <- vector()
   
   for(country in countries){
@@ -187,15 +253,11 @@ create_plot <- function(countries){
           axis.title.y = element_text(size=15, lineheight=1.2),
           axis.title.x = element_text(size=15, lineheight=1))
 }
-
-
-
-#x=days_till 1000 cases vs case_fatality
+#================================================================================================#
 #Dependent Variables: survival_rate, case_fatality, days_till
 #Independent Variables: days_till, population_density
 
 ##OBSERVATIONS  [Independent vs Dependent]
-
 #[Days Since 1st Case] VS [Case Fatality]     #Direct Relationship
         #Western Asia       p-value: 0.04456  #w/ Turkey outlier removed
         #Southern Europe    
@@ -209,22 +271,11 @@ create_plot <- function(countries){
 #[Days till 1000 Cases] vs [Population Density]
         #Eastern Europe     p-value: 0.04649    #after removing BLR, BGR, RUS, UKR, ROU
 
-
 # Proportion of Population Infected vs Case Fatality Rate
         #Western Africa
               #p-value = 0.05289
               #R2 value = 0.7632
               #Kendell Tau's Corr = -0.6
-
-##TO STUDY
-#Density Graph Per Region (i.e. AFRICA, EUROPE ,etc.) of days_till 1000 cases
-    #Notice that Asia (not land-locked countries) tend to take longer to reach 1000 cases versus Europe
-
-#Experiment with Days_Till n, where n is 100, 500, 1000, 1500 and 2000. Maybe make a grid plot?
-
-#QQPLOT PLEASE to check if variables are normally distributed
-
-
 #################################################################################################
 ALL <- c("all")
 
@@ -262,15 +313,34 @@ CENTRAL_AM <- c('BLZ', 'CRC', 'SLV', 'GTM', 'HND', 'NIC', 'PAN')
 SOUTH_AM <- c('ARG', 'BOL', 'BRA', 'CHL', 'COL', 'ECU', 'GUF', 'GUY', 'PRY', 'PER', 'SUR', 'URY', 'VEN')
 
 AMERICA <- c(NORTHERN_AM, CARRIBEAN_AM, CENTRAL_AM, SOUTH_AM)
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#####################################################################################################
+#####################################################################################################
+###################################          INSTRUCTIONS          ##################################
 
+##To compare two or more countries, simply type "compare_countries(c("country1_id", "country2_id", ...))
 
+#To compare regions, refer to regions and sub-regions above.
+    #e.g. compare_countries(EUROPE)
+    #e.g. compare_countries(SOUTHERN_EU)
 
+##OPTIONAL: Preliminary Data Exploration
+#If you wish to include this, update additional parameter. 
+    #e.g. compare_countries(EUROPE, prelim_plot=1), or simply compare_countries(EUROPE, 1)
 
-
-
-
-
-
+##OPTIONAL: To change variables of interest
+#Manually change variables in function create_corplot()
+#####################################################################################################
+#####################################################################################################
 
 
 
